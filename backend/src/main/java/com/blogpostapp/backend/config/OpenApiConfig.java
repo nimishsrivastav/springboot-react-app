@@ -23,10 +23,10 @@ public class OpenApiConfig {
         devServer.setUrl("http://localhost:" + serverPort);
         devServer.setDescription("Development server");
 
-        Contact contact = new Contact();
-        contact.setEmail("support@blogapp.com");
-        contact.setName("Blog App Support");
-        contact.setUrl("https://www.blogapp.com");
+        // Contact contact = new Contact();
+        // contact.setEmail("support@blogapp.com");
+        // contact.setName("Blog App Support");
+        // contact.setUrl("https://www.blogapp.com");
 
         License mitLicense = new License()
                 .name("MIT License")
@@ -35,7 +35,7 @@ public class OpenApiConfig {
         Info info = new Info()
                 .title("Blog Post Management API")
                 .version("1.0")
-                .contact(contact)
+                // .contact(contact)
                 .description("This API exposes endpoints to manage blog posts and comments.")
                 .license(mitLicense);
 
