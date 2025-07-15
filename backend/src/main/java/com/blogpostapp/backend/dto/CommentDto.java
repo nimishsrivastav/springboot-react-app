@@ -1,6 +1,8 @@
 package com.blogpostapp.backend.dto;
 
+import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotBlank;
+import jakarta.validation.constraints.Pattern;
 import jakarta.validation.constraints.Size;
 import java.time.LocalDateTime;
 
@@ -13,8 +15,10 @@ public class CommentDto {
     
     @NotBlank(message = "Author name is required")
     @Size(min = 2, max = 50, message = "Author name must be between 2 and 50 characters")
+    @Pattern(regexp = "^[a-zA-Z\\s]+$", message = "Author name can only contain letters and spaces")
     private String authorName;
     
+    @Email(message = "Email should be valid")
     @Size(max = 100, message = "Email cannot exceed 100 characters")
     private String authorEmail;
     
