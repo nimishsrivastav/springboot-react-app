@@ -37,7 +37,7 @@ A comprehensive full-stack blog application built with React and Spring Boot. Th
 
 ### Frontend (React)
 - **Framework**: React 18 with TypeScript
-- **Styling**: Tailwind CSS with responsive design
+- **Styling**: Bootstrap CSS with responsive design
 - **Build Tool**: Create React App
 - **API Communication**: Axios with centralized error handling
 - **Containerization**: Docker with Nginx serving
