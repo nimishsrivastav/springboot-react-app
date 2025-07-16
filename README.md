@@ -26,6 +26,8 @@ A comprehensive full-stack blog application built with React and Spring Boot. Th
 
 ## 🏗️ Architecture
 
+![Architectural Diagram](architectural-diagram.png)
+
 ### Backend (Spring Boot)
 - **Framework**: Spring Boot 3.5.3 with Java 24
 - **Database**: PostgreSQL with JPA/Hibernate
