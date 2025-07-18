@@ -202,7 +202,7 @@ SPRING_PROFILES_ACTIVE=docker
 - `PUT /api/v1/comments/{id}` - Update comment
 - `DELETE /api/v1/comments/{id}` - Delete comment
 
-Detailed API endpoints are available [here](frontend/README.md).
+Detailed API endpoints are available [here](backend/README.md).
 
 ## 🧪 Testing
 
